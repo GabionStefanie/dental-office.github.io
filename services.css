@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono&family=Josefin+Sans:wght@600&family=Jost:wght@700&family=Lexend+Deca&family=Montserrat:wght@400;600;700&display=swap");
+
+.wrapper {
+  width: 100%;
+  height: 1981px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px 5%;
+  background: #17245f;
+}
+
+nav {
+  margin-left: auto;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+li a {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #feeb6b;
+  transition: 0.2s;
+}
+
+.nav__link {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.company_name {
+  width: 500px;
+  height: auto;
+
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.servicesBG {
+  width: 100%;
+  height: 519px;
+  background: #22409a;
+
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.servicesImg {
+  width: 100%;
+  height: 519px;
+
+  display: block;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+}
+
+.servicesText {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 2;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 1570px;
+  margin-top: 20px;
+  padding-block: 25px;
+  row-gap: 5px;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 95%;
+  height: 95%;
+  background-color: #4cbaf4;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image__container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__logo {
+  margin-left: 80px;
+  background-color: white;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.text__container {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2.2vw;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  width: 168px;
+  height: 34px;
+  background-color: #0c0c0c;
+  border-radius: 75px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 15px 5%;
+  background: #17245f;
+  row-gap: 5px;
+}
+
+.LOREM_IPSUM {
+  color: #fff;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.operating_hrs,
+.contact_details {
+  color: #feeb6b;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.company_name_footer {
+  color: #fff;
+  font-family: Lexend Deca;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+
+.company_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 4px;
+}
+
+.footer_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.icon_link {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 10px;
+}
