@@ -55,9 +55,9 @@ li a:hover {
 
 .logo {
   cursor: pointer;
-  width: 90px;
-  height: 90px;
-  background-color: white;
+  width: 89px;
+  height: 80px;
+  background-color: white; 
   margin-right: 1rem;
   border-radius: 50%;
 }
